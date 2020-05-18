@@ -18,6 +18,12 @@ const Button = (props) => {
           font-weight: bold;
           color: white;
         };
+
+        button:hover {
+          width: 350px;
+          height: 200px;
+          transition: 0.4s ease;
+        }
       `}
     </style>
   </div>)
