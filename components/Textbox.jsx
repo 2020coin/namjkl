@@ -4,7 +4,7 @@ const Textbox = (props) => {
     const { placeholder, type, change } = props;
     return (
         <>
-        <input id="textBox" type={type} placeholder={placeholder} onKeyPress={change} />
+        <input id="textBox" style="background-color: yellow" type={type} placeholder={placeholder} onKeyPress={change} />
         </>
     );
 };
