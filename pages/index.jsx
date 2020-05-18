@@ -7,7 +7,7 @@ const main = () => {
   <div>
     <TextBox 
     type="text"
-    placeholder="아이디"
+    placeholder="ID"
     change={() => {
       setState(document.getElementById('textBox').value);
       }}/>
